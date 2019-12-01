@@ -3,7 +3,7 @@ agent any
     stages {
         stage('checkout') {
             steps {
-                git 'https://github.com/conshay/aaa.git'
+                git 'https://github.com/conshay/aaaa.git'
             }
         }
         stage('build') {
